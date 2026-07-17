@@ -40,7 +40,7 @@ SCRATCH="/data/scratch/$USER"
 if [ -d "$SCRATCH" ]; then
     data_Dir="${SCRATCH}/Gitika/Github_Repositories/Mega_PartI/Pipeline_Runs"
 else
-    data_Dir="${Home}Mega_PartI/Pipeline_Runs"
+    data_Dir="${Home}/Pipeline_Runs"
 fi
 
 log_dir="master_log"

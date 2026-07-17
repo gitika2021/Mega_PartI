@@ -116,7 +116,7 @@ if command -v qsub >/dev/null 2>&1; then
     #         -N $PBS_JOBNAME5 \
     #         train_cpu.sh)
             
-    walltime="96:00:00"
+    walltime="00:10:00"
     jid5=$(qsub -S /bin/bash \
             -q $queue \
             -l walltime=$walltime \
